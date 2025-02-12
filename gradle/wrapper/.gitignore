@@ -1,0 +1,6 @@
+### Gradle Wrapper ###
+
+!/gradle-wrapper.jar
+!/gradle-wrapper.properties
+
+# Add custom ignores after this line to be preserved during automated updates

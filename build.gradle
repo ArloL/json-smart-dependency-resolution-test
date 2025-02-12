@@ -1,0 +1,26 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'com.nimbusds:oauth2-oidc-sdk:9.43.4'
+}
+
+configurations.all {
+	resolutionStrategy {
+		force 'net.minidev:json-smart:2.5.2'
+	}
+}
