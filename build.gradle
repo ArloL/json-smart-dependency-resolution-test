@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.nimbusds:oauth2-oidc-sdk:9.43.4'
+	implementation 'com.nimbusds:oauth2-oidc-sdk:11.22.2'
 }
 
 configurations.all {
